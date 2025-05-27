@@ -1,0 +1,15 @@
+.filter-container {
+  width: 950px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 1rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+  width: 450px;
+  flex-wrap: nowrap;
+}
