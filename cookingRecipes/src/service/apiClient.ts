@@ -4,7 +4,7 @@ import type {
   IdType,
 } from "../common/commonTypes";
 
-export class ApiClient {
+class ApiClient {
   constructor(private baseUrl: string) {}
   async findAll<V extends Identifiable>(ctor: EntityConstructor<V>) {
     return this.fetchData(
@@ -63,3 +63,6 @@ export class ApiClient {
     return resp.json();
   }
 }
+
+const BASE_URL = "http://localhost:9000";
+export const API = new ApiClient(BASE_URL);

@@ -1,0 +1,12 @@
+.actions {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}

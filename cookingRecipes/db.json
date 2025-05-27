@@ -1,167 +1,54 @@
 {
   "users": [
     {
-      "id": "e874",
-      "createDate": "2025-05-24T18:32:59.779Z",
-      "modifyDate": "2025-05-26T08:17:39.921Z",
-      "user": {
-        "name": "admin",
-        "username": "admin",
-        "password": "anaAna5&",
-        "gender": 1,
-        "photoUrl": "src/assets/default-male.jpg",
-        "description": "i am admin"
-      },
+      "id": "0290",
+      "createDate": "2025-05-27T16:18:18.891Z",
+      "modifyDate": "2025-05-27T17:22:07.921Z",
+      "name": "aaa",
+      "username": "aaa",
+      "password": "dsadsasad4$",
+      "gender": 1,
+      "photoUrl": "src/assets/default-male.jpg",
+      "description": "",
       "role": 2,
       "status": 1
     },
     {
-      "id": "u001",
-      "createDate": "2025-05-26T08:20:00.000Z",
-      "modifyDate": "2025-05-26T08:20:00.000Z",
-      "user": {
-        "name": "John Doe",
-        "username": "jdoe",
-        "password": "anaAna5&",
-        "gender": 1,
-        "photoUrl": "src/assets/default-male.jpg",
-        "description": "Tech enthusiast and software developer"
-      },
-      "role": 1,
+      "id": "e8af",
+      "createDate": "2025-05-27T16:38:15.850Z",
+      "modifyDate": "2025-05-27T17:20:55.849Z",
+      "name": "dasdsa",
+      "username": "fsadfdas",
+      "password": "anaAna5&",
+      "gender": 2,
+      "photoUrl": "src/assets/default-female.png",
+      "description": "",
+      "role": 2,
       "status": 1
     },
     {
-      "id": "u002",
-      "createDate": "2025-05-26T08:21:00.000Z",
-      "modifyDate": "2025-05-26T08:21:00.000Z",
-      "user": {
-        "name": "Jane Smith",
-        "username": "jsmith",
-        "password": "anaAna5&",
-        "gender": 2,
-        "photoUrl": "src/assets/default-male.jpg",
-        "description": "Marketing expert with a passion for design"
-      },
-      "role": 1,
+      "id": "da9d",
+      "createDate": "2025-05-27T17:24:25.521Z",
+      "modifyDate": "2025-05-27T17:24:36.865Z",
+      "name": "dsa",
+      "username": "dido",
+      "password": "anaAna5&",
+      "gender": 2,
+      "photoUrl": "src/assets/default-female.png",
+      "description": "",
+      "role": 2,
       "status": 1
     },
     {
-      "id": "u003",
-      "createDate": "2025-05-26T08:22:00.000Z",
-      "modifyDate": "2025-05-26T08:22:00.000Z",
-      "user": {
-        "name": "Michael Brown",
-        "username": "mbrown",
-        "password": "anaAna5&",
-        "gender": 1,
-        "photoUrl": "src/assets/default-male.jpg",
-        "description": "Finance professional who loves numbers"
-      },
-      "role": 1,
-      "status": 1
-    },
-    {
-      "id": "u004",
-      "createDate": "2025-05-26T08:23:00.000Z",
-      "modifyDate": "2025-05-26T08:23:00.000Z",
-      "user": {
-        "name": "Emily Johnson",
-        "username": "ejohnson",
-        "password": "anaAna5&",
-        "gender": 2,
-        "photoUrl": "src/assets/default-male.jpg",
-        "description": "Creative writer and storytelling enthusiast"
-      },
-      "role": 1,
-      "status": 1
-    },
-    {
-      "id": "u005",
-      "createDate": "2025-05-26T08:24:00.000Z",
-      "modifyDate": "2025-05-26T08:24:00.000Z",
-      "user": {
-        "name": "Daniel Wilson",
-        "username": "dwilson",
-        "password": "anaAna5&",
-        "gender": 1,
-        "photoUrl": "src/assets/default-male.jpg",
-        "description": "Data analyst with a love for algorithms"
-      },
-      "role": 1,
-      "status": 1
-    },
-    {
-      "id": "u006",
-      "createDate": "2025-05-26T08:25:00.000Z",
-      "modifyDate": "2025-05-26T08:25:00.000Z",
-      "user": {
-        "name": "Sophia Martinez",
-        "username": "smartinez",
-        "password": "anaAna5&",
-        "gender": 2,
-        "photoUrl": "src/assets/default-male.jpg",
-        "description": "UX designer improving user experiences"
-      },
-      "role": 1,
-      "status": 1
-    },
-    {
-      "id": "u007",
-      "createDate": "2025-05-26T08:26:00.000Z",
-      "modifyDate": "2025-05-26T08:26:00.000Z",
-      "user": {
-        "name": "James Anderson",
-        "username": "janderson",
-        "password": "anaAna5&",
-        "gender": 1,
-        "photoUrl": "src/assets/default-male.jpg",
-        "description": "Cybersecurity specialist protecting data"
-      },
-      "role": 1,
-      "status": 1
-    },
-    {
-      "id": "u008",
-      "createDate": "2025-05-26T08:27:00.000Z",
-      "modifyDate": "2025-05-26T08:27:00.000Z",
-      "user": {
-        "name": "Olivia Thomas",
-        "username": "othomas",
-        "password": "anaAna5&",
-        "gender": 2,
-        "photoUrl": "src/assets/default-male.jpg",
-        "description": "HR manager ensuring workplace harmony"
-      },
-      "role": 1,
-      "status": 1
-    },
-    {
-      "id": "u009",
-      "createDate": "2025-05-26T08:28:00.000Z",
-      "modifyDate": "2025-05-26T08:28:00.000Z",
-      "user": {
-        "name": "William Davis",
-        "username": "wdavis",
-        "password": "anaAna5&",
-        "gender": 1,
-        "photoUrl": "src/assets/default-male.jpg",
-        "description": "Entrepreneur passionate about startups"
-      },
-      "role": 1,
-      "status": 1
-    },
-    {
-      "id": "u010",
-      "createDate": "2025-05-26T08:29:00.000Z",
-      "modifyDate": "2025-05-26T08:29:00.000Z",
-      "user": {
-        "name": "Charlotte White",
-        "username": "cwhite",
-        "password": "anaAna5&",
-        "gender": 2,
-        "photoUrl": "src/assets/default-male.jpg",
-        "description": "Healthcare professional dedicated to wellness"
-      },
+      "id": "0e74",
+      "createDate": "2025-05-27T17:29:49.809Z",
+      "modifyDate": "2025-05-27T17:29:49.809Z",
+      "name": "aaa",
+      "username": "ppbonchev",
+      "password": "dsadsasad4$",
+      "gender": 1,
+      "photoUrl": "src/assets/default-male.jpg",
+      "description": "",
       "role": 1,
       "status": 1
     }

@@ -1,0 +1,17 @@
+.users-page-ok-button {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 0.7rem 2rem;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.users-page-ok-button {
+  background-color: #45a049;
+}
