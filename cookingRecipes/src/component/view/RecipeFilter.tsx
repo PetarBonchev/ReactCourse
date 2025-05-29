@@ -30,7 +30,11 @@ const RecipeFilter = ({
       </div>
       <div className="form-group">
         <label>Author:</label>
-        <input value={authorFilter} onChange={handleAuthorFilterChange} />
+        <input
+          value={authorFilter}
+          onChange={handleAuthorFilterChange}
+          className="author-input"
+        />
       </div>
     </div>
   );

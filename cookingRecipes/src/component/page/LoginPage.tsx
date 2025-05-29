@@ -5,6 +5,7 @@ import { useState } from "react";
 import type { Optional } from "../../common/commonTypes";
 import "./LoginPage.css";
 import { useAuth } from "../provider/AuthProvider";
+import { ROUTES } from "../../common/Routes";
 
 const LoginPage = () => {
   const { login } = useAuth();
@@ -24,7 +25,7 @@ const LoginPage = () => {
     }
 
     login(user);
-    navigate("/");
+    navigate(ROUTES.HOME);
   };
 
   return (

@@ -8,8 +8,8 @@ import EditDeleteButtons from "../common/EditDeleteButtons";
 type Props = {
   recipes: Recipe[];
   getUsername: (id: IdType) => string;
-  onEdit: (id: IdType) => void;
-  onDelete: (id: IdType) => void;
+  onEdit?: (id: IdType) => void;
+  onDelete?: (id: IdType) => void;
   maxItems?: number;
   showButtons?: boolean;
 };
@@ -17,8 +17,8 @@ type Props = {
 const RecipeList = ({
   recipes,
   getUsername,
-  onEdit,
-  onDelete,
+  onEdit = () => {},
+  onDelete = () => {},
   maxItems = 0,
   showButtons = false,
 }: Props) => {

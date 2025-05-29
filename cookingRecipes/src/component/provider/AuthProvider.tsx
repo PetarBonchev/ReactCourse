@@ -11,7 +11,7 @@ import {
   saveUserToSession,
   removeUserFromSession,
 } from "../../common/userSessionStorage";
-import type { User } from "../../model/user";
+import { Role, type User } from "../../model/user";
 import { useRepositories } from "./RepositoryProvider";
 import useAsyncEffect from "../../hook/useAsyncEffect";
 
@@ -19,6 +19,7 @@ type AuthContextType = {
   logedUser: Optional<User>;
   login: (user: User) => void;
   logout: () => void;
+  isAdmin: () => boolean;
 };
 
 const AuthContext = createContext<Optional<AuthContextType>>(undefined);
@@ -29,6 +30,10 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   );
 
   const { users } = useRepositories();
+
+  const isAdmin = useCallback(() => {
+    return logedUser?.role === Role.ADMIN;
+  }, [logedUser]);
 
   useAsyncEffect(async () => {
     update();
@@ -56,7 +61,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ logedUser, login, logout }}>
+    <AuthContext.Provider value={{ logedUser, login, logout, isAdmin }}>
       {children}
     </AuthContext.Provider>
   );

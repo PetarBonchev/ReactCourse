@@ -1,40 +1,15 @@
 import { useNavigate, useParams } from "react-router-dom";
 import RecipeDataInput from "../input/RecipeDataInput";
 import { useAuth } from "../provider/AuthProvider";
-import { useRepositories } from "../provider/RepositoryProvider";
-import { useState } from "react";
-import { type Optional } from "../../common/commonTypes";
-import { Recipe } from "../../model/recipe";
-import useAsyncEffect from "../../hook/useAsyncEffect";
+import { useRecipes } from "../../hook/useRecipes";
 
 const InputRecipePage = () => {
   const navigate = useNavigate();
   const { logedUser } = useAuth();
-  const { recipes } = useRepositories();
-
   const { id } = useParams();
-  const [recipeData, setRecipeData] = useState<Optional<Recipe>>(undefined);
 
-  useAsyncEffect(async () => {
-    if (id) {
-      const foundRecipe = await recipes.findById(id);
-      setRecipeData(foundRecipe || undefined);
-    }
-  }, [id, recipes]);
-
-  const add = (recipe: Recipe): void => {
-    recipes.create(recipe);
-    navigate("/");
-  };
-
-  const edit = async (recipe: Recipe): Promise<void> => {
-    const toEdit = await recipes.findById(id || "");
-    recipe.createDate = toEdit ? toEdit.createDate : recipe.createDate;
-    recipes.update(recipe);
-    navigate(-1);
-  };
-
-  const isEditing = Boolean(id && recipeData);
+  const { recipeData, isEditing, handleSubmit } =
+    useRecipes().useRecipeForm(id);
 
   const determineAuthor = (): string => {
     if (isEditing) {
@@ -49,7 +24,7 @@ const InputRecipePage = () => {
         recipeData={isEditing ? recipeData : undefined}
         authorId={determineAuthor()}
         onCancel={() => navigate(-1)}
-        onSubmit={isEditing ? edit : add}
+        onSubmit={handleSubmit}
       />
     </>
   );

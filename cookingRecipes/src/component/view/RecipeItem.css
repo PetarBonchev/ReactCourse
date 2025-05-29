@@ -80,6 +80,6 @@
   font-size: 1.2rem;
 }
 
-.recipe-item-container:hover {
+.recipe-card:hover {
   cursor: pointer;
 }

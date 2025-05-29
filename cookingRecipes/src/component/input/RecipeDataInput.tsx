@@ -80,7 +80,7 @@ const RecipeDataInput = ({
       setTags([]);
       setProducts([]);
 
-      onSubmit(recipe);
+      await onSubmit(recipe);
     } catch (error) {
       if (error instanceof Error) {
         setErrorMessage(error.message);

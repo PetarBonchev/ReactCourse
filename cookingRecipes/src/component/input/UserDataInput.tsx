@@ -76,7 +76,7 @@ const UserDataInput = ({
 
       setErrorMessage("");
 
-      onSubmit(user);
+      await onSubmit(user);
     } catch (error) {
       if (error instanceof Error) {
         setErrorMessage(error.message);

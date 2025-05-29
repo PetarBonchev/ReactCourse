@@ -17,7 +17,6 @@ const HeaderItem = () => {
       <div className="header-title" onClick={() => navigate("/")}>
         🍳 Cooking Recipes
       </div>
-      <p>rendom password: dsadsasad4$</p>
       <div className="header-auth">
         {!logedUser ? (
           <>
