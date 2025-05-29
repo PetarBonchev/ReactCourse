@@ -3,14 +3,12 @@ import "./EditDeleteButtons.css";
 type Props = {
   onEdit: React.MouseEventHandler<HTMLButtonElement>;
   onDelete: React.MouseEventHandler<HTMLButtonElement>;
-  show?: boolean;
   "data-index"?: number;
 };
 
 const EditDeleteButtons = ({
   onEdit,
   onDelete,
-  show = false,
   "data-index": dataIndex,
 }: Props) => {
   const dataAttributes =
@@ -18,16 +16,14 @@ const EditDeleteButtons = ({
 
   return (
     <>
-      {show && (
-        <div className="actions">
-          <button onClick={onEdit} {...dataAttributes}>
-            ✏️
-          </button>
-          <button onClick={onDelete} {...dataAttributes}>
-            🗑️
-          </button>
-        </div>
-      )}
+      <div className="actions">
+        <button onClick={onEdit} {...dataAttributes}>
+          ✏️
+        </button>
+        <button onClick={onDelete} {...dataAttributes}>
+          🗑️
+        </button>
+      </div>
     </>
   );
 };

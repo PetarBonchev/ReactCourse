@@ -38,12 +38,13 @@ const UserList = ({ users, onEdit, onDelete, showButtons = false }: Props) => {
         {users.map((user, index) => (
           <div key={user.id}>
             <UserItem user={user} />
-            <EditDeleteButtons
-              onEdit={handleEdit}
-              onDelete={handleDelete}
-              show={showButtons}
-              data-index={index}
-            />
+            {showButtons && (
+              <EditDeleteButtons
+                onEdit={handleEdit}
+                onDelete={handleDelete}
+                data-index={index}
+              />
+            )}
           </div>
         ))}
       </div>

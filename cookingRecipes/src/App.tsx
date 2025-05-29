@@ -8,6 +8,7 @@ import HeaderItem from "./component/HeaderItem";
 import { AuthProvider } from "./component/provider/AuthProvider";
 import InputUserPage from "./component/page/InputUserPage";
 import RecipesPage from "./component/page/RecipesPage";
+import InputRecipePage from "./component/page/InputRecipePage";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
               <Route path="/users" element={<UsersPage />} />
               <Route path="/users/:id" element={<InputUserPage />} />
               <Route path="/recipes" element={<RecipesPage />} />
+              <Route path="/recipes/add" element={<InputRecipePage />} />
+              <Route path="/recipes/:id" element={<InputRecipePage />} />
             </Routes>
           </BrowserRouter>
         </AuthProvider>

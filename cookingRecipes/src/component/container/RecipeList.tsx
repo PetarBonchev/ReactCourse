@@ -48,14 +48,15 @@ const RecipeList = ({
           <div key={recipe.id}>
             <RecipeItem
               recipe={recipe}
-              authorUsername={getUsername(recipe.id)}
+              authorUsername={getUsername(recipe.userId)}
             />
-            <EditDeleteButtons
-              onEdit={handleEdit}
-              onDelete={handleDelete}
-              show={showButtons}
-              data-index={index}
-            />
+            {showButtons && (
+              <EditDeleteButtons
+                onEdit={handleEdit}
+                onDelete={handleDelete}
+                data-index={index}
+              />
+            )}
           </div>
         ))}
       </div>

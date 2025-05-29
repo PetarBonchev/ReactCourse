@@ -5,6 +5,7 @@ import { useRepositories } from "../provider/RepositoryProvider";
 import { Gender, getDefaultPhotoUrl, Role, User } from "../../model/user";
 import { useState } from "react";
 import useAsyncEffect from "../../hook/useAsyncEffect";
+import type { Optional } from "../../common/commonTypes";
 
 const InputUserPage = () => {
   const navigate = useNavigate();
@@ -12,12 +13,12 @@ const InputUserPage = () => {
   const { users } = useRepositories();
 
   const { id } = useParams();
-  const [userData, setUserData] = useState<User | null>(null);
+  const [userData, setUserData] = useState<Optional<User>>(undefined);
 
   useAsyncEffect(async () => {
     if (id) {
       const foundUser = await users.findById(id);
-      setUserData(foundUser || null);
+      setUserData(foundUser || undefined);
     }
   }, [id, users]);
 
@@ -30,8 +31,8 @@ const InputUserPage = () => {
   };
 
   const edit = async (user: User): Promise<void> => {
-    const old = await users.findById(user.id);
-    user.createDate = old ? old.createDate : user.createDate;
+    const toEdit = await users.findById(id || "");
+    user.createDate = toEdit ? toEdit.createDate : user.createDate;
     if (
       user.photoUrl == getDefaultPhotoUrl(Gender.FEMALE) ||
       user.photoUrl == getDefaultPhotoUrl(Gender.MALE)
@@ -46,9 +47,9 @@ const InputUserPage = () => {
 
   return (
     <UserDataInput
-      userData={(isEditing ? userData : undefined) || undefined}
       onSubmit={isEditing ? edit : register}
       onCancel={() => navigate(-1)}
+      userData={(isEditing ? userData : undefined) || undefined}
       showHidden={logedUser?.role === Role.ADMIN}
     />
   );

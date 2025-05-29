@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
 import { User, Gender, Role } from "../../model/user";
-import type { Optional } from "../../common/commonTypes";
 import { UserValidator } from "../../model/userValidator";
 import "./UserDataInput.css";
 
 type Props = {
-  userData: Optional<User>;
   onSubmit: (user: User) => void;
   onCancel: () => void;
+  userData?: User;
   showHidden?: boolean;
 };
 
@@ -22,9 +21,9 @@ const emptyForm = {
 };
 
 const UserDataInput = ({
-  userData,
   onSubmit,
   onCancel,
+  userData = undefined,
   showHidden = false,
 }: Props) => {
   const [formData, setFormData] = useState(emptyForm);
@@ -60,7 +59,7 @@ const UserDataInput = ({
 
   const onSubmitData = async () => {
     try {
-      const data = new User(
+      const user = new User(
         formData.name,
         formData.username,
         formData.password,
@@ -71,13 +70,13 @@ const UserDataInput = ({
       );
       const validator = new UserValidator();
 
-      await validator.validate(data);
+      await validator.validate(user);
 
-      data.id = userData ? userData.id : data.id;
+      user.id = userData ? userData.id : user.id;
 
       setErrorMessage("");
 
-      onSubmit(data);
+      onSubmit(user);
     } catch (error) {
       if (error instanceof Error) {
         setErrorMessage(error.message);
