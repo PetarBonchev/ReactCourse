@@ -1,55 +1,55 @@
 {
   "users": [
     {
-      "id": "0290",
-      "createDate": "2025-05-27T16:18:18.891Z",
-      "modifyDate": "2025-05-27T17:22:07.921Z",
-      "name": "aaa",
-      "username": "aaa",
-      "password": "dsadsasad4$",
-      "gender": 1,
-      "photoUrl": "src/assets/default-male.jpg",
-      "description": "",
-      "role": 2,
-      "status": 1
-    },
-    {
-      "id": "e8af",
-      "createDate": "2025-05-27T16:38:15.850Z",
-      "modifyDate": "2025-05-27T17:20:55.849Z",
-      "name": "dasdsa",
-      "username": "fsadfdas",
-      "password": "anaAna5&",
+      "id": "a100",
+      "createDate": "2025-06-02T10:12:00.000Z",
+      "modifyDate": "2025-06-02T10:12:00.000Z",
+      "name": "Emily",
+      "username": "admin",
+      "password": "abcD123$",
       "gender": 2,
       "photoUrl": "src/assets/default-female.png",
-      "description": "",
+      "description": "Creative writer and coffee enthusiast. Always looking for a good story.",
       "role": 2,
       "status": 1
     },
     {
-      "id": "da9d",
-      "createDate": "2025-05-27T17:24:25.521Z",
-      "modifyDate": "2025-05-27T17:24:36.865Z",
-      "name": "dsa",
-      "username": "dido",
-      "password": "anaAna5&",
-      "gender": 2,
-      "photoUrl": "src/assets/default-female.png",
-      "description": "",
-      "role": 2,
-      "status": 1
-    },
-    {
-      "id": "0e74",
-      "createDate": "2025-05-27T17:29:49.809Z",
-      "modifyDate": "2025-05-27T17:29:49.809Z",
-      "name": "aaa",
-      "username": "ppbonchev",
-      "password": "dsadsasad4$",
+      "id": "a101",
+      "createDate": "2025-06-02T10:13:00.000Z",
+      "modifyDate": "2025-06-02T10:13:00.000Z",
+      "name": "Mark",
+      "username": "user",
+      "password": "abcD123$",
       "gender": 1,
       "photoUrl": "src/assets/default-male.jpg",
-      "description": "",
+      "description": "Software developer with a passion for solving problems and building tools.",
       "role": 1,
+      "status": 1
+    },
+    {
+      "id": "a102",
+      "createDate": "2025-06-02T10:14:00.000Z",
+      "modifyDate": "2025-06-02T12:22:22.261Z",
+      "name": "Lina",
+      "username": "linaArt",
+      "password": "abcD123$",
+      "gender": 2,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Woman_at_Lover%27s_Bridge_Tanjung_Sepat_%28cropped%29.jpg/1200px-Woman_at_Lover%27s_Bridge_Tanjung_Sepat_%28cropped%29.jpg",
+      "description": "Visual artist who loves exploring digital illustration and mixed media.",
+      "role": 2,
+      "status": 1
+    },
+    {
+      "id": "a103",
+      "createDate": "2025-06-02T10:15:00.000Z",
+      "modifyDate": "2025-06-02T12:22:54.670Z",
+      "name": "James",
+      "username": "jamesJames",
+      "password": "abcD123$",
+      "gender": 1,
+      "photoUrl": "src/assets/default-male.jpg",
+      "description": "Tech geek, gamer, and aspiring data scientist.",
+      "role": 2,
       "status": 1
     }
   ],
@@ -57,21 +57,27 @@
     {
       "id": "0c5e",
       "createDate": "2025-05-26T02:59:38.750Z",
-      "modifyDate": "2025-05-26T02:59:38.750Z",
-      "userId": "u002",
-      "name": "Pan Seared Steak ",
+      "modifyDate": "2025-05-29T08:47:36.085Z",
+      "userId": "a100",
+      "name": "Pan Seared Steak",
       "shortDescription": "This Pan-Seared Steak has a garlic rosemary-infused butter that makes it taste steakhouse quality. You’ll be impressed at how easy it is to make the perfect steak – seared and caramelized on the outside, and so juicy inside.",
       "cookingDuration": 20,
-      "productsUsed": ["2 New York Strip Steaks"],
+      "productsUsed": [
+        "2 New York Strip Steaks"
+      ],
       "photoUrl": "https://natashaskitchen.com/wp-content/uploads/2020/03/Pan-Seared-Steak-4-728x1092.jpg",
       "fullDescription": "Pat dry – use paper towels to pat the steaks dry to get a perfect sear and reduce oil splatter.\nSeason generously – just before cooking steaks, sprinkle both sides liberally with salt and pepper.\nPreheat the pan on medium and brush with oil. Using just 1/2 Tbsp oil reduces splatter.\nSear steaks – add steaks and sear each side 3-4 minutes until a brown crust has formed then use tongs to turn steaks on their sides and sear edges (1 min per edge).\nAdd butter and aromatics – melt in butter with quartered garlic cloves and rosemary sprigs. Tilt pan to spoon garlic butter over steaks and cook to your desired doneness (see chart below).\nRemove steak and rest 10 minutes before slicing against the grain.",
-      "tags": ["steack", "fast", "main dish"]
+      "tags": [
+        "steack",
+        "fast",
+        "main dish"
+      ]
     },
     {
       "id": "3012",
       "createDate": "2025-05-26T08:05:49.306Z",
-      "modifyDate": "2025-05-26T08:05:49.306Z",
-      "userId": "e874",
+      "modifyDate": "2025-05-28T19:49:34.113Z",
+      "userId": "a101",
       "name": "Good Old-Fashioned Pancakes",
       "shortDescription": "I found this pancake recipe in my Grandma's recipe book. Judging from the weathered look of this recipe card, this was a family favorite.",
       "cookingDuration": 20,
@@ -86,13 +92,16 @@
       ],
       "photoUrl": "https://www.allrecipes.com/thmb/zOTS1txlUKFMKJYr2qDkwtvjNzM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Good-Old-Fashioned-Pancakes-by-angela-2000-5bdefa16ad58418c93658f1d04924708.jpg",
       "fullDescription": "It's not hard to make homemade pancakes — you just need a good recipe. That's where we come in! You'll find the step-by-step recipe below, but here's a brief overview of what you can expect:\n\n1. Sift the dry ingredients together.\n2. Make a well, then add the wet ingredients. Stir to combine.\n3. Scoop the batter onto a hot griddle or pan.\n4. Cook for two to three minutes, then flip.\n5. Continue cooking until brown on both sides.\n\nWhen to Flip Pancakes\nYour pancake will tell you when it's ready to flip. Wait until bubbles start to form on the top and the edges look dry and set. This will usually take about two to three minutes on each side.",
-      "tags": ["pancakes", "fast"]
+      "tags": [
+        "pancakes",
+        "fast"
+      ]
     },
     {
       "id": "4001",
       "createDate": "2025-05-26T08:30:00.000Z",
       "modifyDate": "2025-05-26T08:36:51.984Z",
-      "userId": "e874",
+      "userId": "a102",
       "name": "Classic Margherita Pizza",
       "shortDescription": "A simple yet delicious pizza with fresh tomatoes, basil, and mozzarella.",
       "cookingDuration": 25,
@@ -104,52 +113,81 @@
       ],
       "photoUrl": "https://cookieandkate.com/images/2021/07/classic-margherita-pizza.jpg",
       "fullDescription": "Roll out the pizza dough, spread the tomato sauce, add mozzarella slices, and bake at 220°C for 15 minutes. Garnish with fresh basil.",
-      "tags": ["pizza", "main dish"]
+      "tags": [
+        "pizza",
+        "main dish"
+      ]
     },
     {
       "id": "4002",
       "createDate": "2025-05-26T08:31:00.000Z",
       "modifyDate": "2025-05-26T08:37:31.520Z",
-      "userId": "e874",
+      "userId": "a103",
       "name": "Spaghetti Carbonara",
       "shortDescription": "A creamy and rich pasta dish with eggs, cheese, and pancetta.",
       "cookingDuration": 20,
-      "productsUsed": ["spaghetti", "eggs", "pancetta", "Parmesan cheese"],
+      "productsUsed": [
+        "spaghetti",
+        "eggs",
+        "pancetta",
+        "Parmesan cheese"
+      ],
       "photoUrl": "https://img.chefkoch-cdn.de/rezepte/1298241234947062/bilder/1590571/crop-360x240/carbonara-wie-bei-der-mamma-in-rom.jpg",
       "fullDescription": "Cook spaghetti and mix with a sauce made of eggs, grated Parmesan, and crispy pancetta.",
-      "tags": ["pasta", "fast"]
+      "tags": [
+        "pasta",
+        "fast"
+      ]
     },
     {
       "id": "4003",
       "createDate": "2025-05-26T08:32:00.000Z",
       "modifyDate": "2025-05-26T08:50:33.247Z",
-      "userId": "e874",
+      "userId": "a100",
       "name": "Grilled Salmon with Lemon",
       "shortDescription": "A healthy and flavorful salmon recipe with a touch of citrus.",
       "cookingDuration": 15,
-      "productsUsed": ["salmon", "lemon", "olive oil", "garlic"],
+      "productsUsed": [
+        "salmon",
+        "lemon",
+        "olive oil",
+        "garlic"
+      ],
       "photoUrl": "https://static01.nyt.com/images/2024/11/24/multimedia/Salmon-With-Lemon-Herb-Marinaderex-zcfp/Salmon-With-Lemon-Herb-Marinaderex-zcfp-videoSixteenByNineJumbo1600-v2.jpg",
       "fullDescription": "Brush salmon with olive oil and season with lemon juice and garlic. Grill for 5 minutes on each side.",
-      "tags": ["seafood", "healthy", "salmon"]
+      "tags": [
+        "seafood",
+        "healthy",
+        "salmon"
+      ]
     },
     {
       "id": "4004",
       "createDate": "2025-05-26T08:33:00.000Z",
       "modifyDate": "2025-05-26T08:39:32.024Z",
-      "userId": "e874",
+      "userId": "a101",
       "name": "Chocolate Lava Cake",
       "shortDescription": "A decadent chocolate cake with a gooey molten center.",
       "cookingDuration": 30,
-      "productsUsed": ["dark chocolate", "butter", "eggs", "sugar", "flour"],
+      "productsUsed": [
+        "dark chocolate",
+        "butter",
+        "eggs",
+        "sugar",
+        "flour"
+      ],
       "photoUrl": "https://www.foodandwine.com/thmb/XdFd-DvTtouryLCjeCqwhfmmK-A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/molten-chocolate-cake-FT-RECIPE0220-0a33d7d0ab0c45588f7bfe742d33a9bc.jpg",
       "fullDescription": "Mix melted chocolate, butter, sugar, and eggs. Bake at 180°C for 12 minutes until the center remains soft.",
-      "tags": ["dessert", "chocolate"]
+      "tags": [
+        "dessert",
+        "chocolate"
+      ]
     },
     {
       "id": "4005",
       "createDate": "2025-05-26T08:34:00.000Z",
       "modifyDate": "2025-05-26T08:40:51.279Z",
-      "userId": "u007",
+      "userId": "a102",
       "name": "Caesar Salad",
       "shortDescription": "A refreshing and crunchy salad with Caesar dressing and croutons.",
       "cookingDuration": 15,
@@ -161,13 +199,16 @@
       ],
       "photoUrl": "https://www.feastingathome.com/wp-content/uploads/2021/10/Caesar-salad_-4.jpg",
       "fullDescription": "Chop lettuce, mix with dressing, add croutons, and sprinkle with Parmesan.",
-      "tags": ["salad", "healthy"]
+      "tags": [
+        "salad",
+        "healthy"
+      ]
     },
     {
       "id": "4006",
       "createDate": "2025-05-26T03:05:00.000Z",
       "modifyDate": "2025-05-26T08:46:40.287Z",
-      "userId": "e874",
+      "userId": "a103",
       "name": "Garlic Butter Shrimp",
       "shortDescription": "Juicy shrimp sautéed in a garlic butter sauce with lemon juice and parsley. A quick and elegant dinner idea ready in 15 minutes!",
       "cookingDuration": 15,
@@ -181,13 +222,18 @@
       ],
       "photoUrl": "https://panlasangpinoy.com/wp-content/uploads/2009/03/garlic-butter-shrimp-1.jpg",
       "fullDescription": "Pat shrimp dry and season with salt and pepper.\nHeat butter and olive oil in a large skillet over medium-high heat.\nAdd minced garlic and sauté for 30 seconds.\nAdd shrimp and cook 1-2 minutes per side until pink and opaque.\nSqueeze in lemon juice and sprinkle with fresh parsley.\nServe immediately with rice or pasta.",
-      "tags": ["shrimp", "quick", "seafood", "main dish"]
+      "tags": [
+        "shrimp",
+        "quick",
+        "seafood",
+        "main dish"
+      ]
     },
     {
       "id": "4007",
       "createDate": "2025-05-26T03:06:00.000Z",
       "modifyDate": "2025-05-26T08:48:15.047Z",
-      "userId": "u002",
+      "userId": "a100",
       "name": "Creamy Mushroom Pasta",
       "shortDescription": "A rich and creamy mushroom pasta that comes together in just 25 minutes. Perfect comfort food for a cozy dinner.",
       "cookingDuration": 25,
@@ -202,15 +248,20 @@
       ],
       "photoUrl": "https://www.budgetbytes.com/wp-content/uploads/2021/10/Creamy-Mushroom-Pasta-close.jpg",
       "fullDescription": "Cook pasta according to package instructions. Reserve 1/2 cup pasta water.\nHeat oil and butter in a pan, sauté mushrooms until golden.\nAdd minced garlic, cook for 1 minute.\nPour in cream and simmer 3-4 minutes.\nAdd cooked pasta and cheese. Stir until coated, adding pasta water as needed.\nServe with extra parmesan and cracked pepper.",
-      "tags": ["pasta", "vegetarian", "creamy", "comfort food"]
+      "tags": [
+        "pasta",
+        "vegetarian",
+        "creamy",
+        "comfort food"
+      ]
     },
     {
       "id": "4009",
       "createDate": "2025-05-26T03:08:00.000Z",
       "modifyDate": "2025-05-26T08:49:05.887Z",
-      "userId": "u002",
+      "userId": "a101",
       "name": "One-Pan Baked Salmon",
-      "shortDescription": "Tender, flaky salmon baked with lemon, garlic, and herbs. Ready in just 20 minutes and perfect for a healthy dinner.",
+      "shortDescription": "Tender, flaky salmon baked with lemon, garlic, and herbs.",
       "cookingDuration": 20,
       "productsUsed": [
         "4 salmon fillets",
@@ -220,8 +271,89 @@
         "Fresh dill or parsley"
       ],
       "photoUrl": "https://ichef.bbc.co.uk/ace/standard/1600/food/recipes/baked_salmon_00289_16x9.jpg.webp",
-      "fullDescription": "Preheat oven to 400°F.\nPlace salmon on a foil-lined baking sheet.\nBrush with olive oil and season with salt and pepper.\nTop with minced garlic, lemon slices, and fresh herbs.\nBake 12-15 minutes until salmon flakes easily.\nServe with roasted veggies or rice.",
-      "tags": ["salmon", "healthy", "quick", "main dish"]
+      "fullDescription": "Preheat oven to 400°F.\nPlace salmon on a foil-lined baking sheet.\nBrush with olive oil and season with salt and pepper.\nTop with minced garlic, lemon slices, and fresh herbs.",
+      "tags": [
+        "salmon",
+        "healthy",
+        "quick",
+        "main dish"
+      ]
+    },
+    {
+      "id": "4010",
+      "createDate": "2025-06-02T10:20:00.000Z",
+      "modifyDate": "2025-06-02T12:18:20.692Z",
+      "userId": "a100",
+      "name": "Avocado Toast with Egg",
+      "shortDescription": "A nutritious and quick breakfast with creamy avocado, poached egg, and a dash of chili flakes.",
+      "cookingDuration": 10,
+      "productsUsed": [
+        "2 slices whole grain bread",
+        "1 ripe avocado",
+        "2 eggs",
+        "Salt",
+        "Pepper",
+        "Chili flakes"
+      ],
+      "photoUrl": "https://www.eatingwell.com/thmb/ZHXRyJgN5ikb5Zk0SMw1XhQ8W9g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EWL-267169-avocado-egg-toast-Hero-02-037627ac211748fc857b5a69989fa8e9.jpg",
+      "fullDescription": "Toast bread slices to your preference. Mash avocado with a pinch of salt and spread on toast. Poach eggs and place one on each slice. Season with pepper and chili flakes. Serve immediately.",
+      "tags": [
+        "breakfast",
+        "healthy",
+        "quick"
+      ]
+    },
+    {
+      "id": "4011",
+      "createDate": "2025-06-02T10:21:00.000Z",
+      "modifyDate": "2025-06-02T12:18:44.137Z",
+      "userId": "a101",
+      "name": "Beef and Broccoli Stir Fry",
+      "shortDescription": "A quick Asian-inspired dinner with tender beef slices and crisp broccoli in a savory sauce.",
+      "cookingDuration": 20,
+      "productsUsed": [
+        "1 lb flank steak",
+        "2 cups broccoli florets",
+        "2 tbsp soy sauce",
+        "1 tbsp oyster sauce",
+        "1 tsp cornstarch",
+        "2 cloves garlic",
+        "1 tbsp sesame oil"
+      ],
+      "photoUrl": "https://www.dinneratthezoo.com/wp-content/uploads/2017/10/beef-and-broccoli-stir-fry-14.jpg",
+      "fullDescription": "Slice beef thinly and marinate with soy sauce, oyster sauce, and cornstarch. Stir fry broccoli until bright green and tender-crisp, set aside. Sauté garlic in sesame oil, add beef and cook until browned. Return broccoli to pan, toss, and serve with rice.",
+      "tags": [
+        "beef",
+        "asian",
+        "quick",
+        "main dish"
+      ]
+    },
+    {
+      "id": "4012",
+      "createDate": "2025-06-02T10:22:00.000Z",
+      "modifyDate": "2025-06-02T12:19:11.663Z",
+      "userId": "a102",
+      "name": "Vegan Chickpea Curry",
+      "shortDescription": "A flavorful and hearty curry made with chickpeas, tomatoes, and coconut milk. Perfect for meatless Mondays.",
+      "cookingDuration": 30,
+      "productsUsed": [
+        "1 can chickpeas",
+        "1 onion",
+        "2 garlic cloves",
+        "1 tbsp curry powder",
+        "1 can coconut milk",
+        "1 can diced tomatoes",
+        "Fresh cilantro"
+      ],
+      "photoUrl": "https://www.allrecipes.com/thmb/kjAJU-poacPp9DI2me93Qh8FzYE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7557150-003b399503054e95873262027ed0619a.jpg",
+      "fullDescription": "Sauté chopped onion and garlic in oil until soft. Add curry powder and stir for 1 minute. Pour in tomatoes, coconut milk, and chickpeas. Simmer for 20 minutes. Garnish with chopped cilantro and serve with rice or naan.",
+      "tags": [
+        "vegan",
+        "curry",
+        "healthy",
+        "main dish"
+      ]
     }
   ]
 }

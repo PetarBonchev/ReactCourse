@@ -15,7 +15,7 @@ const HeaderItem = () => {
   return (
     <header className="header-item">
       <div className="header-title" onClick={() => navigate("/")}>
-        🍳 Cooking Recipes
+        Cooking Recipes
       </div>
       <div className="header-auth">
         {!logedUser ? (

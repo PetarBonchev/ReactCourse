@@ -20,6 +20,8 @@
 }
 
 .frontpage-sidebar-card {
+  position: sticky;
+  top: 1rem;
   border-radius: 0.75rem;
   padding: 1rem;
   display: flex;
